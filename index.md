@@ -10,7 +10,7 @@
 
 <body>
 <p style="background-image: url('back.jpg');">
-<h1 align="center">Woo-Lim James Jang</h1>
+<h1 align="center" style="background-color:powderblue;">Woo-Lim James Jang</h1>
     <h3 align="center">Phone:</h3> <p align="center">(703) 479-6877</p>
         <h3 align="center">Email:</h3> <p align="center"><a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
             <h3 align="center">Address:</h3> <p align="center">5501 Sully Lake Dr</p> <p align="center">Centreville, VA, 20120</p>
@@ -24,7 +24,8 @@ img.me {
 }
 </style>
 
-<a href="https://lh3.googleusercontent.com/oU-NkYlAvn6Am7ArxRFw-gMo-h4tcw5nsIFxsMj_1ryzliHjc1qCrj0dFaaL-6_bWfYq_rubuTsRYk4Z2yI33nSNkb9YP5aPVqepukdT505Qt46uMQv4VEDdBP5LHfL12dTHAww_dQ=s200-p-k?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/oU-NkYlAvn6Am7ArxRFw-gMo-h4tcw5nsIFxsMj_1ryzliHjc1qCrj0dFaaL-6_bWfYq_rubuTsRYk4Z2yI33nSNkb9YP5aPVqepukdT505Qt46uMQv4VEDdBP5LHfL12dTHAww_dQ=s200-p-k" /> </a>
+<a href="https://lh3.googleusercontent.com/oU-NkYlAvn6Am7ArxRFw-gMo-h4tcw5nsIFxsMj_1ryzliHjc1qCrj0dFaaL-6_bWfYq_rubuTsRYk4Z2yI33nSNkb9YP5aPVqepukdT505Qt46uMQv4VEDdBP5LHfL12dTHAww_dQ=s200-p-k?source=screenshot.guru">
+    <img src="https://lh3.googleusercontent.com/oU-NkYlAvn6Am7ArxRFw-gMo-h4tcw5nsIFxsMj_1ryzliHjc1qCrj0dFaaL-6_bWfYq_rubuTsRYk4Z2yI33nSNkb9YP5aPVqepukdT505Qt46uMQv4VEDdBP5LHfL12dTHAww_dQ=s200-p-k" /> </a>
 
 <h4>ABOUT ME</h4>
     <p>I am currently a student at Virginia Tech pursuing a Bachelor of Science degree in Computer Science.</p>
@@ -32,18 +33,18 @@ img.me {
             to create my own personal projects that bridge the gap between code and computer.</p>
 
 <br>
-<h4>EDUCATION</h4>
+<h4 style="background-color:pink;">EDUCATION</h4>
     <h3>Virginia Polytechnic Institute and State University | <em>Blacksburg, VA</em></h3>
         <p>Expected Graduation:</p>
                 <p>May 2023</p>
 
 <br>
-<h4>PERSONAL PROJECTS</h4>
+<h4 style="background-color:pink;">PERSONAL PROJECTS</h4>
     <h4>Resume Website | <em>Blacksburg, VA</em> <span style="float:right;">December 2021 - January 2022</span></h4>
         <ul>
             <li><p>Utilized HTML to create a recreation of my resume as a web page.</p></li>
             <li><p>Exercised HTML skills and knowledge to implement the website from scratch.</p></li>
-            <li><p></p></li>
+            <li><p>Website can be found at this link: https://jangwool.github.io/</p></li>
         </ul>       
 
     <h4>Stock Market Website Scraper | <em>Blacksburg, VA</em> <span style="float:right;">June 2021 - July 2021</span></h4>
