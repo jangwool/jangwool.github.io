@@ -50,7 +50,7 @@ img.me {
         <ul>
             <li><p>Used Python and HTML to parse specific information from the website Yahoo Finance and output the current price of a stock.</p></li>
             <li><p>Applied skills necessary for web scraping and extracting data from websites.</p></li>
-            <li><p>Created to assist family and friends with timely stock market investing opportunites.</p></li>
+            <li><p>Created to assist family and friends with timely stock market investing opportunities.</p></li>
         </ul>
 
     <h4>Raspberry Pi Macro Keypad | <em>Centreville, VA</em> <span style="float:right;">October 2020 - December 2020</span></h4>
