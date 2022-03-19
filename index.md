@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -30,7 +29,7 @@ img.me {
 <h4>ABOUT ME</h4>
     <p>I am currently a student at Virginia Tech pursuing a Bachelor of Science degree in Computer Science.</p>
             <p>My interests include mobile/web development and I enjoy working with small single-board computers such as the Raspberry Pi
-            to create my own personal projects that bridge the gap between code and computer.</p>
+            to create my own personal projects that bridge the gap between code and computers.</p>
 
 <br>
 <h4 style="background-color:pink;">EDUCATION</h4>
@@ -60,5 +59,15 @@ img.me {
             <li><p>The keypad allows users to set macros, hotkeys, and keyboard shortcuts on a computer/program.</p></li>
             <li><p>Made during the pandemic with the intention to streamline work from home procedures.</p></li>
         </ul>
+
+<br>
+<h4 style="background-color:pink;">SKILLS</h4>
+    <ul>
+        <li><p>Programming languages: Python, Java, C++, C</p></li>
+        <li><p>Proficient in: Data structures, object-oriented programming</p></li>
+        <li><p>Knowledge in Microsoft Office suite, Github, MATLAB, GNU Octave, Visual Studio Code, HTML, Linux</p></li>
+        <li><p>Fluent in Korean</p></li>
+    </ul>
+
 </body>
 </html>
