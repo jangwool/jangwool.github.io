@@ -17,18 +17,22 @@
 </p>
 
 <style>
-img.me {
-    height: 100%;
-    width: 100%;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+    height: 200px;
 }
 </style>
 
-<a href="https://lh3.googleusercontent.com/oU-NkYlAvn6Am7ArxRFw-gMo-h4tcw5nsIFxsMj_1ryzliHjc1qCrj0dFaaL-6_bWfYq_rubuTsRYk4Z2yI33nSNkb9YP5aPVqepukdT505Qt46uMQv4VEDdBP5LHfL12dTHAww_dQ=s200-p-k?source=screenshot.guru">
-    <img src="https://lh3.googleusercontent.com/oU-NkYlAvn6Am7ArxRFw-gMo-h4tcw5nsIFxsMj_1ryzliHjc1qCrj0dFaaL-6_bWfYq_rubuTsRYk4Z2yI33nSNkb9YP5aPVqepukdT505Qt46uMQv4VEDdBP5LHfL12dTHAww_dQ=s200-p-k" /> </a>
+<a href="https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k?source=screenshot.guru">
+    <img src="https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k" class="center" /> </a>
 
-<h4>ABOUT ME</h4>
-    <p>I am currently a student at Virginia Tech pursuing a Bachelor of Science degree in Computer Science.</p>
-            <p>My interests include mobile/web development and I enjoy working with small single-board computers such as the Raspberry Pi
+<h4 align="center">ABOUT ME</h4>
+    <p align="center">I am currently a student at Virginia Tech pursuing a Bachelor of Science degree in Computer Science.</p>
+            <p align="center">My interests include mobile/web development and I enjoy working with small single-board computers such as the Raspberry Pi
             to create my own personal projects that bridge the gap between code and computers.</p>
 
 <br>
