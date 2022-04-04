@@ -24,11 +24,12 @@
     width: 50%;
     width: 200px;
     height: 200px;
+    border: 10px ridge powderblue;
 }
 </style>
 
 <a href="https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k?source=screenshot.guru">
-    <img src="https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k" class="center" /> </a>
+    <img src="https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k" class="center" class="border" /> </a>
 
 <h4 align="center">ABOUT ME</h4>
     <p align="center">I am currently a student at Virginia Tech pursuing a Bachelor of Science degree in Computer Science.</p>
