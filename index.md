@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
     <meta name="author" content="Woo-Lim James Jang">
-<title>TITLE</title>
+<title>Woo-Lim James Jang Resume</title>
 </head>
 
 <body>
@@ -45,32 +45,36 @@
 <br>
 <h4 style="background-color:pink;">PERSONAL PROJECTS</h4>
     <h4>Resume Website | <em>Blacksburg, VA</em> <span style="float:right;">December 2021 - January 2022</span></h4>
-        <ul>
-            <li><p>Utilized HTML to create a recreation of my resume as a web page.</p></li>
-            <li><p>Exercised HTML skills and knowledge to implement the website from scratch.</p></li>
-            <li><p>Website can be found at this link: https://jangwool.github.io/</p></li>
-        </ul>       
+        <em>HTML Website Developer & Designer</em>
+            <ul>
+                <li><p>Utilized HTML to create a recreation of my resume as a web page.</p></li>
+                <li><p>Exercised HTML skills and knowledge to implement the website from scratch.</p></li>
+                <li><p>Website can be found at this link: https://jangwool.github.io/</p></li>
+            </ul>       
 
-    <h4>Stock Market Website Scraper | <em>Blacksburg, VA</em> <span style="float:right;">June 2021 - July 2021</span></h4>
-        <ul>
-            <li><p>Used Python and HTML to parse specific information from the website Yahoo Finance and output the current price of a stock.</p></li>
-            <li><p>Applied skills necessary for web scraping and extracting data from websites.</p></li>
-            <li><p>Created to assist family and friends with timely stock market investing opportunities.</p></li>
-        </ul>
+    <h4>COVID-19 Stock Market Data Analysis | <em>Blacksburg, VA</em> <span style="float:right;">June 2021 - July 2021</span></h4>
+        <em>Python Stock Market Researcher & Analyzer</em>
+            <ul>
+                <li><p>Practiced utilizing Python, pandas, and NumPy to parse specific elements from
+                    websites like Yahoo Finance to compare pre and post-COVID stock market data.</p></li>
+                <li><p>Applied skills related to web scraping, extracting data from websites, and data visualization.</p></li>
+                <li><p>Researched and analyzed the impact COVID-19 had on the stock market.</p></li>
+            </ul>
 
     <h4>Raspberry Pi Macro Keypad | <em>Centreville, VA</em> <span style="float:right;">October 2020 - December 2020</span></h4>
-        <ul>
-            <li><p>Developed a programmable macro keypad using CircuitPython and Raspbery Pi Pico.</p></li>
-            <li><p>The keypad allows users to set macros, hotkeys, and keyboard shortcuts on a computer/program.</p></li>
-            <li><p>Made during the pandemic with the intention to streamline work from home procedures.</p></li>
-        </ul>
+        <em>Raspberry Pi Developer</em>
+            <ul>
+                <li><p>Developed a programmable macro keypad using CircuitPython and Raspbery Pi Pico.</p></li>
+                <li><p>The keypad allows users to set macros, hotkeys, and keyboard shortcuts on a computer/program.</p></li>
+                <li><p>Made during the pandemic with the intention to streamline work from home procedures.</p></li>
+            </ul>
 
 <br>
 <h4 style="background-color:pink;">SKILLS</h4>
     <ul>
-        <li><p>Programming languages: Python, Java, C++, C</p></li>
+        <li><p>Programming languages: Python, Java, C++, C, HTML, CSS</p></li>
         <li><p>Proficient in: Data structures, object-oriented programming</p></li>
-        <li><p>Knowledge in Microsoft Office suite, Github, MATLAB, GNU Octave, Visual Studio Code, HTML, Linux</p></li>
+        <li><p>Knowledge in Microsoft Office suite, Git, MATLAB, Eclipse, Jupyter Notebook, Visual Studio Code, Linux</p></li>
         <li><p>Fluent in Korean</p></li>
     </ul>
 
