@@ -38,7 +38,7 @@
 
 <br>
 <h4 style="background-color:pink;">EDUCATION</h4>
-    <h3>Virginia Polytechnic Institute and State University | <em>Blacksburg, VA</em></h3>
+    <h3><FONT COLOR="#cc6600">Virginia Polytechnic Institute and State University</FONT> | <em>Blacksburg, VA</em></h3>
         <p>Expected Graduation:</p>
                 <p>May 2023</p>
 
