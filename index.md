@@ -44,15 +44,16 @@
 
 <br>
 <h4 style="background-color:pink;">PERSONAL PROJECTS</h4>
-    <h4>Resume Website | <em>Blacksburg, VA</em> <span style="float:right;">December 2021 - January 2022</span></h4>
+    <h4><FONT COLOR="#0291CB">Resume Website</FONT> | <em>Blacksburg, VA</em> <span style="float:right;">December 2021 - January 2022</span></h4>
         <em>HTML Website Developer & Designer</em>
             <ul>
                 <li><p>Utilized HTML to create a recreation of my resume as a web page.</p></li>
                 <li><p>Exercised HTML skills and knowledge to implement the website from scratch.</p></li>
                 <li><p>Website can be found at this link: https://jangwool.github.io/</p></li>
-            </ul>       
+            </ul>
+            <br>  
 
-    <h4>COVID-19 Stock Market Data Analysis | <em>Blacksburg, VA</em> <span style="float:right;">June 2021 - July 2021</span></h4>
+    <h4><FONT COLOR="#0291CB">COVID-19 Stock Market Data Analysis</FONT> | <em>Blacksburg, VA</em> <span style="float:right;">June 2021 - July 2021</span></h4>
         <em>Python Stock Market Researcher & Analyzer</em>
             <ul>
                 <li><p>Practiced utilizing Python, pandas, and NumPy to parse specific elements from
@@ -60,8 +61,9 @@
                 <li><p>Applied skills related to web scraping, extracting data from websites, and data visualization.</p></li>
                 <li><p>Researched and analyzed the impact COVID-19 had on the stock market.</p></li>
             </ul>
+            <br>
 
-    <h4>Raspberry Pi Macro Keypad | <em>Centreville, VA</em> <span style="float:right;">October 2020 - December 2020</span></h4>
+    <h4><FONT COLOR="#0291CB">Raspberry Pi Macro Keypad</FONT> | <em>Centreville, VA</em> <span style="float:right;">October 2020 - December 2020</span></h4>
         <em>Raspberry Pi Developer</em>
             <ul>
                 <li><p>Developed a programmable macro keypad using CircuitPython and Raspbery Pi Pico.</p></li>
