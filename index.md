@@ -7,14 +7,15 @@
 <title>Woo-Lim James Jang Resume</title>
 </head>
 
+<link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+
 <body>
-<p style="background-image: url('back.jpg');">
-<h1 align="center" style="background-color:powderblue;">Woo-Lim James Jang</h1>
-    <h3 align="center">Phone:</h3> <p align="center">(703) 479-6877</p>
+<font face="Bungee Shade"><h1 align="center" style="background-color:powderblue;">Woo-Lim James Jang</h1></font>
+    <font face="Work Sans"><h3 align="center">Phone:</h3> <p align="center">(703) 479-6877</p>
         <h3 align="center">Email:</h3> <p align="center"><a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
-            <h3 align="center">Address:</h3> <p align="center">5501 Sully Lake Dr</p> <p align="center">Centreville, VA, 20120</p>
+            <h3 align="center">Address:</h3> <p align="center">5501 Sully Lake Dr</p> <p align="center">Centreville, VA, 20120</p></font>
                 <br>
-</p>
 
 <style>
 .center {
@@ -31,12 +32,15 @@
 <a href="https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k?source=screenshot.guru">
     <img src="https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k" class="center" /> </a>
 
-<h4 align="center">ABOUT ME</h4>
+<font face="Work Sans"><h4 align="center">ABOUT ME</h4>
     <p align="center">I am currently a student at Virginia Tech pursuing a Bachelor of Science degree in Computer Science.</p>
             <p align="center">My interests include mobile/web development and I enjoy working with small single-board computers such as the Raspberry Pi
             to create my own personal projects that bridge the gap between code and computers.</p>
 
 <br>
+<p align="center"><a href="https://drive.google.com/file/d/1s2-s3-bCzOcN6N3sAqWqtZupO9gPasLb/view?usp=sharing">Click here to view or download resume</a>.</p>
+<br>
+
 <h4 style="background-color:pink;">EDUCATION</h4>
     <h3><FONT COLOR="#cc6600">Virginia Polytechnic Institute and State University</FONT> | <em>Blacksburg, VA</em></h3>
         <p>Expected Graduation:</p>
@@ -78,7 +82,7 @@
         <li><p>Proficient in: Data structures, object-oriented programming</p></li>
         <li><p>Knowledge in Microsoft Office suite, Git, MATLAB, Eclipse, Jupyter Notebook, Visual Studio Code, Linux</p></li>
         <li><p>Fluent in Korean</p></li>
-    </ul>
+    </ul></font>
 
 </body>
 </html>
