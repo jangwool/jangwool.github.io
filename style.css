@@ -1,0 +1,23 @@
+.cards{
+    perspective: 500px;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    background: url('./monument.png') 
+    center no-repeat;
+    background-size: cover;
+    border: 2px solid 
+    rgba(255, 255, 255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+}
+
+.card:hover{
+    transform: translateZ(10px)
+    rotateX(20deg) rotateY(30deg);
+}
