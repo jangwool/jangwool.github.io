@@ -3,9 +3,7 @@
 }
 
 .card{
-    width: 200px;
-    height: 250px;
-    background: url('./monument.png') 
+    background: url('https://lh3.googleusercontent.com/NN3tDiX_a5E5F2nNyKKoUWntVdjci2KpB1uXs01TpzB5SchbeCEaaHpMakckpd-VWXGyHn4UTolOBH697m0N9t-utWDrfTg0g5aVOkFZjXpBmUlnTY95ljFILBGoWZH7rK-cNFX7DA=s200-p-k') 
     center no-repeat;
     background-size: cover;
     border: 2px solid 
