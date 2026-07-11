@@ -6,68 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="James Jang">
     <title>James Jang</title>
-    <meta name="description" content="James Jang – software developer portfolio.">
+    <meta name="description" content="James Jang personal website.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="page-shell">
-        <div class="layout">
-            <aside class="sidebar">
-                <div class="sidebar-card">
-                    <img class="profile-image" src="./propic.png" alt="Profile picture of James Jang">
-                    <h1>James Jang</h1>
-                    <p class="subtitle">Software developer with a strong background in full-stack web and mobile solutions.</p>
-                    <nav class="site-nav" aria-label="Primary navigation">
-                        <a href="exp/exp.html">Experience</a>
-                        <a href="proj/proj.html">Projects</a>
-                        <a href="https://github.com/jangwool" target="_blank" rel="noopener">GitHub</a>
-                        <a href="https://www.linkedin.com/in/woolimjang/" target="_blank" rel="noopener">LinkedIn</a>
-                        <a href="James_Jang_Resume.pdf" target="_blank" rel="noopener">Resume</a>
-                    </nav>
-                </div>
-            </aside>
+    <header class="topbar">
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a href="exp/exp.html">Experience</a>
+            <a href="proj/proj.html">Projects</a>
+            <a href="https://github.com/jangwool" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/woolimjang/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="James_Jang_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        </nav>
+    </header>
 
-            <main class="content">
-                <section class="hero-card">
-                    <h2>About Me</h2>
-                    <p>software developer by day.</p>
-                    <p>batman by night.</p>
-                </section>
+    <main class="main-layout">
+        <section class="hero-block">
+            <div>
+                <p class="eyebrow">Hi, I’m James</p>
+                <h1>software developer by day.</h1>
+                <h1>batman by night.</h1>
+            </div>
+            <div class="hero-meta">
+                <img src="./propic.png" alt="Profile picture of James Jang">
+            </div>
+        </section>
 
-                <section class="info-card">
-                    <h2>Contact</h2>
-                    <p>Email: <a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
-                </section>
+        <section class="info-block">
+            <h2>CONTACT</h2>
+            <p>Email: <a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
+        </section>
 
-                <section class="info-card">
-                    <h2>Education</h2>
-                    <div class="detail-row">
-                        <strong>Virginia Tech</strong>
-                        <span>Blacksburg, VA</span>
-                    </div>
-                    <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
-                    <p><strong>Graduation:</strong> May 2023</p>
-                </section>
+        <section class="info-block">
+            <h2>EDUCATION</h2>
+            <p><strong>Virginia Tech</strong> | <em>Blacksburg, VA</em></p>
+            <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+            <p><strong>Graduation:</strong> May 2023</p>
+        </section>
 
-                <section class="info-card">
-                    <h2>Skills</h2>
-                    <ul class="skill-list">
-                        <li><strong>Languages:</strong> Python, Java, JavaScript, C/C++, HTML, CSS, Kotlin, YAML</li>
-                        <li><strong>Frameworks:</strong> Angular, Node.js, Spring, JUnit, Flask, React, Express, PowerShell</li>
-                        <li><strong>Platforms and Tools:</strong> Git, Linux, Postman, MongoDB, Figma, VS Code, ServiceNow, Ansible, AWS</li>
-                    </ul>
-                </section>
-            </main>
-        </div>
-    </div>
+        <section class="info-block">
+            <h2>SKILLS</h2>
+            <p><strong>Languages:</strong> Python, Java, JavaScript, C/C++, HTML, CSS, Kotlin, YAML</p>
+            <p><strong>Frameworks:</strong> Angular, Node.js, Spring, JUnit, Flask, React, Express, PowerShell</p>
+            <p><strong>Platforms and Tools:</strong> Git, Linux, Postman, MongoDB, Figma, VS Code, ServiceNow, Ansible, AWS</p>
+        </section>
+    </main>
 </body>
 </html>
-
-
-
 
 
