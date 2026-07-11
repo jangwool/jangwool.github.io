@@ -3,58 +3,73 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="James Jang">
     <title>James Jang</title>
-    <meta name="description" content="James Jang">
+    <meta name="description" content="James Jang – software developer portfolio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<body>
+    <div class="page-shell">
+        <div class="layout">
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <img class="profile-image" src="./propic.png" alt="Profile picture of James Jang">
+                    <h1>James Jang</h1>
+                    <p class="subtitle">Software developer with a strong background in full-stack web and mobile solutions.</p>
+                    <nav class="site-nav" aria-label="Primary navigation">
+                        <a href="exp/exp.html">Experience</a>
+                        <a href="proj/proj.html">Projects</a>
+                        <a href="https://github.com/jangwool" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://www.linkedin.com/in/woolimjang/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="James_Jang_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+                    </nav>
+                </div>
+            </aside>
 
-<div class="wrapper">
-    <header>
-        <a href=""><h1>James Jang</h1></a>
-        <br>
-        <h2>----------</h2>
-        <br>
-        <br>
-        <p><a href="exp/exp.html">Experience</a>
-        <p><a href="proj/proj.html">Projects</a>
-        <p><a href="https://github.com/jangwool">GitHub</a>
-        <p><a href="https://www.linkedin.com/in/woolimjang/">LinkedIn</a>
-        <p><a href="James_Jang_Resume.pdf" target="_blank">Resume</a>
-    </header>
+            <main class="content">
+                <section class="hero-card">
+                    <p class="eyebrow">Hi, I’m James</p>
+                    <h2>Software developer by day. Batman by night.</h2>
+                    <p>I build polished web and mobile experiences using modern tools like React, Node.js, Flask, and Kotlin. I enjoy turning complex challenges into clean, maintainable solutions.</p>
+                </section>
 
-    <div class="container">
-        <picture>
-            <source type="image/png" srcset="./propic.png">
-            <img src="propic.png" alt="profile picture">
-        </picture>
+                <section class="info-card">
+                    <h2>About Me</h2>
+                    <p>Driven by curiosity and a strong user focus, I create applications that are both reliable and intuitive. I enjoy collaborating with teams to deliver value through thoughtful design and engineering.</p>
+                </section>
 
-        <div class="text">
-            <h4 style="background-color:peachpuff;">ABOUT ME</h4>
-                <p>software developer by day.</p>
-                <p>batman by night.</p>
-                <br>
-            <h4 style="background-color:peachpuff;">CONTACT</h4>
-                <p>Email: &nbsp &nbsp &nbsp<a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
-                <br>
-            <h4 style="background-color:peachpuff;">EDUCATION</h4>
-                <h4><FONT COLOR="#FFA41D">Virginia Tech</FONT> | <em>Blacksburg, VA</em></h4>
-                <h2>----------</h2>
-                <h4>Degree:</h4>
-                    <p>Bachelor of Science in Computer Science</p>
-                <h4>Graduation:</h4>
-                    <p>May 2023</p>
-                    <br>
-              <h4 style="background-color:peachpuff;">SKILLS</h4>
-                  <p><b>Languages:</b> Python, Java, JavaScript, C/C++, HTML, CSS, Kotlin, YAML</p>
-                  <p><b>Frameworks:</b> Angular, Node.js, Spring, JUnit, Flask, React, Express, PowerShell</p>
-                  <p><b>Platforms and Tools:</b> Git, Linux, Postman, MongoDB, Figma, VS Code, ServiceNow, Ansible, AWS</p>
+                <section class="info-card">
+                    <h2>Contact</h2>
+                    <p>Email: <a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
+                </section>
+
+                <section class="info-card">
+                    <h2>Education</h2>
+                    <div class="detail-row">
+                        <strong>Virginia Tech</strong>
+                        <span>Blacksburg, VA</span>
+                    </div>
+                    <p>Bachelor of Science in Computer Science · May 2023</p>
+                </section>
+
+                <section class="info-card">
+                    <h2>Skills</h2>
+                    <ul class="skill-list">
+                        <li><strong>Languages:</strong> Python, Java, JavaScript, C/C++, HTML, CSS, Kotlin, YAML</li>
+                        <li><strong>Frameworks:</strong> Angular, React, Node.js, Spring, Flask, Express, JUnit</li>
+                        <li><strong>Tools:</strong> Git, Linux, MongoDB, AWS, Postman, Figma, VS Code, ServiceNow, Ansible</li>
+                    </ul>
+                </section>
+            </main>
         </div>
     </div>
-</div>
+</body>
+</html>
 
 
 
