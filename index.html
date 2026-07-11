@@ -15,48 +15,88 @@
 
 <body>
     <header class="topbar">
-        <nav class="topnav">
-            <a href="index.html">Home</a>
-            <a href="exp/exp.html">Experience</a>
-            <a href="proj/proj.html">Projects</a>
-            <a href="https://github.com/jangwool" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/woolimjang/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="James_Jang_Resume.pdf" target="_blank" rel="noopener">Resume</a>
-        </nav>
+        <div class="topbar-inner">
+            <div class="brand">JJ</div>
+            <nav class="topnav">
+                <a href="#about">About</a>
+                <a href="exp/exp.html">Experience</a>
+                <a href="proj/proj.html">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <main class="main-layout">
-        <section class="hero-block">
-            <div>
-                <p class="eyebrow">Hi, I’m James</p>
-                <h1>software developer by day.</h1>
-                <h1>batman by night.</h1>
+    <main class="page-body">
+        <section class="hero-grid">
+            <div class="hero-copy">
+                <p class="eyebrow">Hello, I’m</p>
+                <h1>JAMES JANG</h1>
+                <p class="hero-subtitle">software developer by day. batman by night.</p>
+                <div class="hero-links">
+                    <a href="https://github.com/jangwool" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/woolimjang/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
             </div>
-            <div class="hero-meta">
-                <img src="./propic.png" alt="Profile picture of James Jang">
+
+            <div class="code-panel">
+                <pre><code>const developer = {
+  name: 'James Jang',
+  skills: [
+    'Python', 'Java', 'JavaScript',
+    'HTML', 'CSS', 'Kotlin',
+    'Node.js', 'Spring', 'Flask'
+  ],
+  hardWorker: true,
+  quickLearner: true
+};</code></pre>
             </div>
         </section>
 
-        <section class="info-block">
-            <h2>CONTACT</h2>
-            <p>Email: <a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
+        <section class="about-section" id="about">
+            <div class="section-heading">
+                <span>— —</span>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>software developer by day.<br>batman by night.</p>
+                    <p>I build simple, polished experiences with a strong focus on clarity, reliability, and clean code.</p>
+
+                    <div class="info-cards">
+                        <article class="info-card">
+                            <h3>Contact</h3>
+                            <p>Email: <a href="mailto:woojang17@gmail.com">woojang17@gmail.com</a></p>
+                        </article>
+
+                        <article class="info-card">
+                            <h3>Education</h3>
+                            <p><strong>Virginia Tech</strong> | <em>Blacksburg, VA</em></p>
+                            <p>Bachelor of Science in Computer Science — May 2023</p>
+                        </article>
+
+                        <article class="info-card">
+                            <h3>Skills</h3>
+                            <p>Python, Java, JavaScript, C/C++, HTML, CSS, Kotlin, YAML</p>
+                            <p>Angular, Node.js, Spring, JUnit, Flask, React, Express, PowerShell</p>
+                            <p>Git, Linux, Postman, MongoDB, Figma, VS Code, ServiceNow, Ansible, AWS</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="profile-card">
+                    <img src="./propic.png" alt="Profile picture of James Jang">
+                </div>
+            </div>
         </section>
 
-        <section class="info-block">
-            <h2>EDUCATION</h2>
-            <p><strong>Virginia Tech</strong> | <em>Blacksburg, VA</em></p>
-            <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
-            <p><strong>Graduation:</strong> May 2023</p>
-        </section>
-
-        <section class="info-block">
-            <h2>SKILLS</h2>
-            <p><strong>Languages:</strong> Python, Java, JavaScript, C/C++, HTML, CSS, Kotlin, YAML</p>
-            <p><strong>Frameworks:</strong> Angular, Node.js, Spring, JUnit, Flask, React, Express, PowerShell</p>
-            <p><strong>Platforms and Tools:</strong> Git, Linux, Postman, MongoDB, Figma, VS Code, ServiceNow, Ansible, AWS</p>
+        <section class="contact-section" id="contact">
+            <div class="section-heading">
+                <span>— —</span>
+                <h2>Contact</h2>
+            </div>
+            <p>Want to connect? Send an email or visit my LinkedIn profile.</p>
         </section>
     </main>
 </body>
 </html>
-
-
