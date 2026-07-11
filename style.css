@@ -8,8 +8,8 @@
     --accent: #38bdf8;
     --accent-strong: #7dd3fc;
     --point-blue: #38bdf8;
-    --grid-dot: rgba(148, 163, 184, 0.14);
-    --border: rgba(148, 163, 184, 0.12);
+    --grid-dot: rgba(148, 163, 184, 0.24);
+    --border: rgba(148, 163, 184, 0.16);
     --radius: 28px;
     --max-width: 1120px;
 }
@@ -29,11 +29,12 @@ body {
     font-family: 'Inter', system-ui, sans-serif;
     color: var(--text);
     background-color: var(--bg);
-    background-image: radial-gradient(circle at top left, rgba(56, 189, 248, 0.08), transparent 20%),
+    background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px),
+                      radial-gradient(circle at top left, rgba(56, 189, 248, 0.08), transparent 20%),
                       radial-gradient(circle at bottom right, rgba(168, 85, 247, 0.09), transparent 18%),
-                      linear-gradient(180deg, #020617 0%, #020617 100%),
-                      radial-gradient(var(--grid-dot) 1px, transparent 1px);
-    background-size: auto, auto, auto, 20px 20px;
+                      linear-gradient(180deg, #020617 0%, #020617 100%);
+    background-size: 20px 20px, auto, auto, auto;
+    background-repeat: repeat, no-repeat, no-repeat, no-repeat;
 }
 
 a {
@@ -74,8 +75,10 @@ a:hover {
     z-index: 0;
     background-image: radial-gradient(var(--point-blue) 1px, transparent 1px);
     background-size: 20px 20px;
-    mask-image: radial-gradient(circle 300px at var(--mouse-x, -9999px) var(--mouse-y, -9999px), rgba(0, 0, 0, 0.38) 0%, transparent 100%);
-    -webkit-mask-image: radial-gradient(circle 300px at var(--mouse-x, -9999px) var(--mouse-y, -9999px), rgba(0, 0, 0, 0.38) 0%, transparent 100%);
+    background-repeat: repeat;
+    mask-image: radial-gradient(circle 220px at var(--mouse-x, -9999px) var(--mouse-y, -9999px), rgba(0, 0, 0, 0.4), transparent 40%);
+    -webkit-mask-image: radial-gradient(circle 220px at var(--mouse-x, -9999px) var(--mouse-y, -9999px), rgba(0, 0, 0, 0.4), transparent 40%);
+    opacity: 0.85;
 }
 
 .brand {
