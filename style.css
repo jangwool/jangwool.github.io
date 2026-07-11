@@ -140,6 +140,53 @@ a:hover {
     color: var(--text);
 }
 
+.section-copy {
+    margin-top: 18px;
+    max-width: 720px;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.85;
+}
+
+.cards-grid {
+    display: grid;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.project-card {
+    background: rgba(15, 23, 42, 0.92);
+    border: 1px solid rgba(56, 189, 248, 0.16);
+    border-radius: 28px;
+    padding: 32px;
+    box-shadow: 0 28px 60px rgba(2, 6, 23, 0.22);
+    transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    background: rgba(15, 23, 42, 1);
+    border-color: rgba(56, 189, 248, 0.24);
+}
+
+.project-card h2 {
+    margin: 0 0 14px;
+    font-size: 1.3rem;
+    color: var(--text);
+}
+
+.project-card p,
+.project-card li {
+    color: var(--muted);
+    line-height: 1.75;
+    font-size: 0.98rem;
+}
+
+.project-card ul {
+    margin: 16px 0 0;
+    padding-left: 1.15rem;
+}
+
 .page-body {
     position: relative;
     max-width: var(--max-width);
@@ -329,6 +376,7 @@ h1 {
     border-radius: 24px;
     object-fit: cover;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+}
 
 .contact-section {
     margin-top: 60px;
@@ -359,36 +407,6 @@ h1 {
 .section-header h1 {
     font-size: clamp(2.4rem, 5vw, 3.8rem);
     margin: 0;
-}
-
-.cards-grid {
-    display: grid;
-    gap: 24px;
-}
-
-.project-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 28px;
-    padding: 28px;
-}
-
-.project-card h2 {
-    margin: 0 0 10px;
-    font-size: 1.2rem;
-    color: var(--text);
-}
-
-.project-card p,
-.project-card li {
-    color: var(--muted);
-    line-height: 1.75;
-    font-size: 0.98rem;
-}
-
-.project-card ul {
-    margin: 16px 0 0;
-    padding-left: 1.15rem;
 }
 
 @media (max-width: 960px) {
