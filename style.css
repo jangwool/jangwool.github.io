@@ -310,12 +310,12 @@ h1 {
     color: var(--text);
 }
 
-.edu-card {
+.logo-watermark-card {
     position: relative;
     overflow: hidden;
 }
 
-.edu-watermark {
+.logo-watermark {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -328,13 +328,15 @@ h1 {
     transition: opacity 320ms ease, transform 320ms ease;
 }
 
-.edu-card:hover .edu-watermark {
+.logo-watermark-card:hover .logo-watermark {
     opacity: 0.14;
     transform: translate(-50%, -50%) scale(1);
 }
 
-.edu-card h3,
-.edu-card p {
+.logo-watermark-card > h2,
+.logo-watermark-card > h3,
+.logo-watermark-card > p,
+.logo-watermark-card > ul {
     position: relative;
     z-index: 1;
 }
