@@ -341,6 +341,26 @@ h1 {
     z-index: 1;
 }
 
+.fmac-word {
+    transition: color 260ms ease;
+}
+
+.fmac-card:hover .fmac-word-blue {
+    color: #00a6de;
+}
+
+.fmac-card:hover .fmac-word-green {
+    color: #7ab832;
+}
+
+.maximus-card h2 {
+    transition: color 260ms ease;
+}
+
+.maximus-card:hover h2 {
+    color: #502e91;
+}
+
 /* Section header (Experience / Projects pages) */
 
 .section-header {
