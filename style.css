@@ -30,6 +30,11 @@ body {
     font-family: 'Inter', system-ui, sans-serif;
     color: var(--text);
     background: var(--bg);
+    transition: filter 320ms ease;
+}
+
+body.batman-mode {
+    filter: brightness(0.82);
 }
 
 a {
@@ -213,16 +218,19 @@ h1 {
 
 .portrait-blob {
     position: absolute;
-    inset: 0;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     background: linear-gradient(160deg, var(--accent) 0%, #f0a06f 100%);
     border-radius: 50% 46% 54% 50% / 54% 50% 50% 46%;
-    transform: rotate(-6deg);
+    transform: translate(-50%, -50%) rotate(-6deg);
     z-index: 0;
     transition: transform 420ms ease;
 }
 
 .hero-portrait:hover .portrait-blob {
-    transform: rotate(10deg) scale(1.08);
+    transform: translate(-50%, -50%) rotate(10deg) scale(1.08);
     border-radius: 54% 50% 50% 46% / 50% 46% 54% 50%;
 }
 
@@ -240,6 +248,25 @@ h1 {
 
 .hero-portrait:hover img {
     transform: translateY(-6px) scale(1.02);
+}
+
+.batman-mask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 84%;
+    aspect-ratio: 1 / 1;
+    z-index: 2;
+    opacity: 0;
+    overflow: visible;
+    pointer-events: none;
+    transform: translate(-50%, -50%) translateY(10px) scale(0.85);
+    transition: opacity 260ms ease, transform 260ms ease;
+}
+
+body.batman-mode .batman-mask {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0) scale(1);
 }
 
 /* About */
