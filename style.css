@@ -301,6 +301,18 @@ h1 {
     font-size: 0.98rem;
 }
 
+.edu-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.vt-badge {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
 .info-card p + p {
     margin-top: 8px;
 }
