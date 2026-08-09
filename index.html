@@ -29,7 +29,7 @@
             <div class="hero-copy">
                 <p class="eyebrow">👋 Hello, I'm</p>
                 <h1>James <span class="highlight">Jang</span></h1>
-                <p class="hero-subtitle">Software developer by day. <span class="script">Batman</span> by night.</p>
+                <p class="hero-subtitle">Software developer by day. <span class="script batman-trigger">Batman</span> by night.</p>
                 <div class="hero-links">
                     <a href="https://github.com/jangwool" target="_blank" rel="noopener">GitHub</a>
                     <a href="https://www.linkedin.com/in/woolimjang/" target="_blank" rel="noopener">LinkedIn</a>
@@ -40,6 +40,17 @@
             <div class="hero-portrait">
                 <div class="portrait-blob" aria-hidden="true"></div>
                 <img src="./propic.png" alt="Profile picture of James Jang">
+                <svg class="batman-mask" viewBox="0 0 200 200" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="batGrad" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#2b2b2f" />
+                            <stop offset="100%" stop-color="#040404" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M55,40 L33,-10 L76,28 Z M145,40 L167,-10 L124,28 Z M15,72 C15,56 34,45 55,50 L76,61 C86,55 114,55 124,61 L145,50 C166,45 185,56 185,72 L185,96 C185,111 165,119 145,109 C130,101 118,96 100,96 C82,96 70,101 55,109 C35,119 15,111 15,96 Z" fill="url(#batGrad)" />
+                    <ellipse cx="66" cy="80" rx="10" ry="6" fill="#ffe9a8" opacity="0.92" />
+                    <ellipse cx="134" cy="80" rx="10" ry="6" fill="#ffe9a8" opacity="0.92" />
+                </svg>
             </div>
         </section>
 
@@ -67,8 +78,18 @@
         </section>
 
     </main>
+    <div class="pokemon-parade" aria-hidden="true">
+        <img class="pokemon-sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="">
+        <img class="pokemon-sprite reverse" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" alt="">
+        <img class="pokemon-sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" alt="">
+        <img class="pokemon-sprite reverse" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" alt="">
+        <img class="pokemon-sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" alt="">
+    </div>
     <footer class="site-footer">
-        <p>Made by James Jang · <a href="mailto:ojoomc@gmail.com">say hi</a></p>
+        <div class="site-footer-inner">
+            <p>Made by James Jang · <a href="https://mail.google.com/mail/?view=cm&fs=1&to=woojang17@gmail.com" target="_blank" rel="noopener">say hi</a></p>
+        </div>
     </footer>
+    <script src="./batman.js"></script>
 </body>
 </html>
