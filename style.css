@@ -310,37 +310,6 @@ h1 {
     color: var(--text);
 }
 
-.logo-watermark-card {
-    position: relative;
-    overflow: hidden;
-}
-
-.logo-watermark {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 68%;
-    max-width: 260px;
-    transform: translate(-50%, -50%) scale(0.94);
-    opacity: 0;
-    pointer-events: none;
-    z-index: 0;
-    transition: opacity 320ms ease, transform 320ms ease;
-}
-
-.logo-watermark-card:hover .logo-watermark {
-    opacity: 0.14;
-    transform: translate(-50%, -50%) scale(1);
-}
-
-.logo-watermark-card > h2,
-.logo-watermark-card > h3,
-.logo-watermark-card > p,
-.logo-watermark-card > ul {
-    position: relative;
-    z-index: 1;
-}
-
 .fmac-word {
     transition: color 260ms ease;
 }
