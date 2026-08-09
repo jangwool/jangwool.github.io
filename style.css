@@ -367,10 +367,58 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+/* Pokemon parade */
+
+.pokemon-parade {
+    position: relative;
+    margin-top: 96px;
+    width: 100%;
+    height: 64px;
+    overflow: hidden;
+}
+
+.pokemon-sprite {
+    position: absolute;
+    bottom: 2px;
+    width: 56px;
+    height: 56px;
+    image-rendering: pixelated;
+    animation-name: walk-across;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.pokemon-sprite.reverse {
+    animation-name: walk-across-reverse;
+    transform: scaleX(-1);
+}
+
+.pokemon-sprite:nth-child(1) { bottom: 4px; animation-duration: 15s; animation-delay: -1s; }
+.pokemon-sprite:nth-child(2) { bottom: 2px; animation-duration: 19s; animation-delay: -6s; }
+.pokemon-sprite:nth-child(3) { bottom: 6px; animation-duration: 17s; animation-delay: -11s; }
+.pokemon-sprite:nth-child(4) { bottom: 0;  animation-duration: 21s; animation-delay: -3s; }
+.pokemon-sprite:nth-child(5) { bottom: 4px; animation-duration: 16s; animation-delay: -14s; }
+
+@keyframes walk-across {
+    from { left: -64px; }
+    to { left: 100%; }
+}
+
+@keyframes walk-across-reverse {
+    from { left: 100%; }
+    to { left: -64px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pokemon-sprite {
+        animation: none;
+        left: 40%;
+    }
+}
+
 /* Footer */
 
 .site-footer {
-    margin-top: 96px;
     width: 100%;
     background: linear-gradient(135deg, var(--accent) 0%, #f0a06f 100%);
 }
