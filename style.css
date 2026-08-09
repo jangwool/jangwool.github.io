@@ -350,12 +350,14 @@ h1 {
 }
 
 .project-card {
+    min-width: 0;
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 32px;
     box-shadow: var(--shadow);
     transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+    overflow-wrap: break-word;
 }
 
 .project-card:hover {
